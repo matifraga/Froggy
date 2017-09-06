@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour {
         } else {
             countText.text = "HIGHSCORE: " + count;
             countText.color = Color.red;
-            countText.fontSize = 50;
+            countText.fontSize = 32;
         }
     }
 }
